@@ -1,5 +1,6 @@
 from abc import ABC, abstractmethod
 
+
 class ABCCheckDb(ABC):
     def __init__(self):
         self.error = None
